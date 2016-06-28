@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83E66C231D0336BC00875CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E66C221D0336BC00875CAD /* AppDelegate.swift */; };
+		83E66C251D0336BC00875CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E66C241D0336BC00875CAD /* ViewController.swift */; };
+		83E66C281D0336BC00875CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E66C261D0336BC00875CAD /* Main.storyboard */; };
+		83E66C2A1D0336BC00875CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E66C291D0336BC00875CAD /* Assets.xcassets */; };
+		83E66C2D1D0336BC00875CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E66C2B1D0336BC00875CAD /* LaunchScreen.storyboard */; };
+		83E66C381D0336BC00875CAD /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E66C371D0336BC00875CAD /* postcardTests.swift */; };
+		83E66C431D0336BD00875CAD /* postcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E66C421D0336BD00875CAD /* postcardUITests.swift */; };
+		83E66C511D03379300875CAD /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 83E66C501D03379300875CAD /* SagradaFamilia.jpeg */; };
+		83E66C531D05050700875CAD /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83E66C521D05050700875CAD /* AlbertEinsteinStamp.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83E66C341D0336BC00875CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E66C171D0336BC00875CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E66C1E1D0336BC00875CAD;
+			remoteInfo = postcard;
+		};
+		83E66C3F1D0336BD00875CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E66C171D0336BC00875CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E66C1E1D0336BC00875CAD;
+			remoteInfo = postcard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83E66C1F1D0336BC00875CAD /* postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E66C221D0336BC00875CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83E66C241D0336BC00875CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83E66C271D0336BC00875CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83E66C291D0336BC00875CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83E66C2C1D0336BC00875CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83E66C2E1D0336BC00875CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E66C331D0336BC00875CAD /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E66C371D0336BC00875CAD /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		83E66C391D0336BC00875CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E66C3E1D0336BD00875CAD /* postcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E66C421D0336BD00875CAD /* postcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardUITests.swift; sourceTree = "<group>"; };
+		83E66C441D0336BD00875CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E66C501D03379300875CAD /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		83E66C521D05050700875CAD /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83E66C1C1D0336BC00875CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E66C301D0336BC00875CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E66C3B1D0336BC00875CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83E66C161D0336BC00875CAD = {
+			isa = PBXGroup;
+			children = (
+				83E66C211D0336BC00875CAD /* postcard */,
+				83E66C361D0336BC00875CAD /* postcardTests */,
+				83E66C411D0336BD00875CAD /* postcardUITests */,
+				83E66C201D0336BC00875CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83E66C201D0336BC00875CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83E66C1F1D0336BC00875CAD /* postcard.app */,
+				83E66C331D0336BC00875CAD /* postcardTests.xctest */,
+				83E66C3E1D0336BD00875CAD /* postcardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83E66C211D0336BC00875CAD /* postcard */ = {
+			isa = PBXGroup;
+			children = (
+				83E66C221D0336BC00875CAD /* AppDelegate.swift */,
+				83E66C241D0336BC00875CAD /* ViewController.swift */,
+				83E66C261D0336BC00875CAD /* Main.storyboard */,
+				83E66C291D0336BC00875CAD /* Assets.xcassets */,
+				83E66C2B1D0336BC00875CAD /* LaunchScreen.storyboard */,
+				83E66C521D05050700875CAD /* AlbertEinsteinStamp.jpg */,
+				83E66C501D03379300875CAD /* SagradaFamilia.jpeg */,
+				83E66C2E1D0336BC00875CAD /* Info.plist */,
+			);
+			path = postcard;
+			sourceTree = "<group>";
+		};
+		83E66C361D0336BC00875CAD /* postcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				83E66C371D0336BC00875CAD /* postcardTests.swift */,
+				83E66C391D0336BC00875CAD /* Info.plist */,
+			);
+			path = postcardTests;
+			sourceTree = "<group>";
+		};
+		83E66C411D0336BD00875CAD /* postcardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83E66C421D0336BD00875CAD /* postcardUITests.swift */,
+				83E66C441D0336BD00875CAD /* Info.plist */,
+			);
+			path = postcardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83E66C1E1D0336BC00875CAD /* postcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E66C471D0336BD00875CAD /* Build configuration list for PBXNativeTarget "postcard" */;
+			buildPhases = (
+				83E66C1B1D0336BC00875CAD /* Sources */,
+				83E66C1C1D0336BC00875CAD /* Frameworks */,
+				83E66C1D1D0336BC00875CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = postcard;
+			productName = postcard;
+			productReference = 83E66C1F1D0336BC00875CAD /* postcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83E66C321D0336BC00875CAD /* postcardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E66C4A1D0336BD00875CAD /* Build configuration list for PBXNativeTarget "postcardTests" */;
+			buildPhases = (
+				83E66C2F1D0336BC00875CAD /* Sources */,
+				83E66C301D0336BC00875CAD /* Frameworks */,
+				83E66C311D0336BC00875CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E66C351D0336BC00875CAD /* PBXTargetDependency */,
+			);
+			name = postcardTests;
+			productName = postcardTests;
+			productReference = 83E66C331D0336BC00875CAD /* postcardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83E66C3D1D0336BC00875CAD /* postcardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E66C4D1D0336BD00875CAD /* Build configuration list for PBXNativeTarget "postcardUITests" */;
+			buildPhases = (
+				83E66C3A1D0336BC00875CAD /* Sources */,
+				83E66C3B1D0336BC00875CAD /* Frameworks */,
+				83E66C3C1D0336BC00875CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E66C401D0336BD00875CAD /* PBXTargetDependency */,
+			);
+			name = postcardUITests;
+			productName = postcardUITests;
+			productReference = 83E66C3E1D0336BD00875CAD /* postcardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83E66C171D0336BC00875CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Sosa";
+				TargetAttributes = {
+					83E66C1E1D0336BC00875CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					83E66C321D0336BC00875CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 83E66C1E1D0336BC00875CAD;
+					};
+					83E66C3D1D0336BC00875CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 83E66C1E1D0336BC00875CAD;
+					};
+				};
+			};
+			buildConfigurationList = 83E66C1A1D0336BC00875CAD /* Build configuration list for PBXProject "postcard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83E66C161D0336BC00875CAD;
+			productRefGroup = 83E66C201D0336BC00875CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83E66C1E1D0336BC00875CAD /* postcard */,
+				83E66C321D0336BC00875CAD /* postcardTests */,
+				83E66C3D1D0336BC00875CAD /* postcardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83E66C1D1D0336BC00875CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E66C2D1D0336BC00875CAD /* LaunchScreen.storyboard in Resources */,
+				83E66C511D03379300875CAD /* SagradaFamilia.jpeg in Resources */,
+				83E66C531D05050700875CAD /* AlbertEinsteinStamp.jpg in Resources */,
+				83E66C2A1D0336BC00875CAD /* Assets.xcassets in Resources */,
+				83E66C281D0336BC00875CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E66C311D0336BC00875CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E66C3C1D0336BC00875CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83E66C1B1D0336BC00875CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E66C251D0336BC00875CAD /* ViewController.swift in Sources */,
+				83E66C231D0336BC00875CAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E66C2F1D0336BC00875CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E66C381D0336BC00875CAD /* postcardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E66C3A1D0336BC00875CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E66C431D0336BD00875CAD /* postcardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E66C351D0336BC00875CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E66C1E1D0336BC00875CAD /* postcard */;
+			targetProxy = 83E66C341D0336BC00875CAD /* PBXContainerItemProxy */;
+		};
+		83E66C401D0336BD00875CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E66C1E1D0336BC00875CAD /* postcard */;
+			targetProxy = 83E66C3F1D0336BD00875CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83E66C261D0336BC00875CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E66C271D0336BC00875CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83E66C2B1D0336BC00875CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E66C2C1D0336BC00875CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83E66C451D0336BD00875CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83E66C461D0336BD00875CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E66C481D0336BD00875CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = postcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiind.postcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83E66C491D0336BD00875CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = postcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiind.postcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83E66C4B1D0336BD00875CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = postcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiind.postcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/postcard.app/postcard";
+			};
+			name = Debug;
+		};
+		83E66C4C1D0336BD00875CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = postcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiind.postcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/postcard.app/postcard";
+			};
+			name = Release;
+		};
+		83E66C4E1D0336BD00875CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = postcardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiind.postcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = postcard;
+			};
+			name = Debug;
+		};
+		83E66C4F1D0336BD00875CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = postcardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiind.postcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = postcard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83E66C1A1D0336BC00875CAD /* Build configuration list for PBXProject "postcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E66C451D0336BD00875CAD /* Debug */,
+				83E66C461D0336BD00875CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E66C471D0336BD00875CAD /* Build configuration list for PBXNativeTarget "postcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E66C481D0336BD00875CAD /* Debug */,
+				83E66C491D0336BD00875CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83E66C4A1D0336BD00875CAD /* Build configuration list for PBXNativeTarget "postcardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E66C4B1D0336BD00875CAD /* Debug */,
+				83E66C4C1D0336BD00875CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83E66C4D1D0336BD00875CAD /* Build configuration list for PBXNativeTarget "postcardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E66C4E1D0336BD00875CAD /* Debug */,
+				83E66C4F1D0336BD00875CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83E66C171D0336BC00875CAD /* Project object */;
+}
